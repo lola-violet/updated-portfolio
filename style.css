@@ -1,3 +1,9 @@
+:root {
+    --cardTitle: red;
+    --cardButton: pink;
+}
+
+
 body {
     background-color: black !important;
 }
@@ -23,4 +29,30 @@ body {
 
 #aboutMe {
     color: whitesmoke
+}
+
+.custom-card {
+    background-color: black !important;
+}
+
+.custom-title {
+    text-align: center;
+    color: var(--cardTitle);
+}
+
+.custom-card-text {
+    font-size: small;
+}
+
+.custom-tech {
+    background-color: black !important;
+    color: white;
+    text-align: center;
+}
+
+.custom-card-link {
+    padding: 4px;
+    border: 1px solid var(--cardButton);
+    border-radius: 10%;
+    color: var(--cardButton);
 }
