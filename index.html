@@ -7,21 +7,24 @@
     <title>Lola Applegate</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&family=BIZ+UDPGothic:wght@400;700&family=Rajdhani&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container" id="custom-nav">
         <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">About</a>
+              <a class="custom-navlink nav-link text-white" href="#aboutMe">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Work</a>
+              <a class="custom-navlink nav-link text-white" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contact</a>
+              <a class="custom-navlink nav-link text-white" href="#">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Resume</a>
+                <a class="custom-navlink nav-link text-white" href="#">Resume</a>
             </li>
           </ul>
     </div>
@@ -33,17 +36,19 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 mb-5" id="aboutMe">
-                <p>I'm baby meh vegan asymmetrical pickled, photo booth sriracha pitchfork chambray ramps leggings four dollar toast. Dolore magna reprehenderit pok pok, pork belly thundercats occaecat pug pour-over velit taxidermy locavore yuccie. Helvetica live-edge lo-fi health goth voluptate organic waistcoat food truck polaroid freegan messenger bag. Cornhole af nisi man bun neutra 3 wolf moon. Marfa four loko iceland, mumblecore bespoke eiusmod dolor keffiyeh tumeric.</p>
-                <p>Keffiyeh YOLO godard eu prism mumblecore distillery, nostrud marfa incididunt. Id messenger bag hella, lo-fi bespoke pariatur intelligentsia. Thundercats vegan eu, kogi hammock organic direct trade. Etsy lo-fi pok pok ex pour-over. Lyft cillum prism, stumptown small batch fashion axe waistcoat vaporware incididunt ullamco pickled authentic in.</p>
+            <div class="col-12 mb-5 text-justify" id="aboutMe">
+                <p>Full-stack web developer with 3+ years of digital marketing experience, a BBA in Management from Berkeley College New York, and a certificate in full-stack web development from the University of Washington's Professional & Continuing Education program. Aiming to leverage my background in marketing & management with newly developed skills in HTML, CSS, JavaScript, third-party APIs, and NodeJS.</p>
+                <p>Using an iterative build approach, I recently collaborated with 3 classmates, creating a trivia application that won the people's choice award (based on votes from all students in our class). As our team's Git Administrator, I used my background in organizational management to oversee our Github workflow, managing several branches & a virtual kanban board. I look forward to applying my new development skills in a collaborative professional environment with a focus on mobile-first & user-centered design.</p>
             </div>
         </div>
-        <div class="d-flex">
-            <div class="custom-card d-flex card col-4 border border-white">
+
+        <div class="d-flex flex-wrap justify-content-around" id="work">
+
+            <div class="custom-card d-flex card col-10 col-md-8 col-lg-5 border border-white">
                 <img src="http://placekitten.com/200/140" class="card-img-top pt-3" alt="kitten placeholder">
                 <div class="card-body">
                   <h5 class="custom-title card-title">Inspirational Jeopardy</h5>
-                  <p class="custom-card-text card-text text-white">A group project using two server-side APIs & Materialize to create a Jeopardy-style trivia quiz.</p>
+                  <p class="custom-card-text card-text text-white">A group project using a combination of server-side APIs to create a Jeopardy-style trivia quiz.</p>
                 </div>
                 <div class="custom-tech">
                     <span>HTML | CSS | JavaScript</span>
@@ -54,6 +59,24 @@
                   <a href="https://github.com/lola-violet/inspirational-jeopardy" class="custom-card-link card-link">Repository</a>
                 </div>
             </div>
+            <div class="custom-card d-flex card col-10 col-md-8 col-lg-5 border border-white">
+                <img src="http://placekitten.com/200/140" class="card-img-top pt-3" alt="kitten placeholder">
+                <div class="card-body">
+                  <h5 class="custom-title card-title">Inspirational Jeopardy</h5>
+                  <p class="custom-card-text card-text text-white">A group project using a combination of server-side APIs to create a Jeopardy-style trivia quiz.</p>
+                </div>
+                <div class="custom-tech">
+                    <span>HTML | CSS | JavaScript</span>
+                </div>
+                </ul>
+                <div class="card-body d-flex justify-content-around">
+                  <a href="https://lola-violet.github.io/inspirational-jeopardy/" class="custom-card-link card-link">Application</a>
+                  <a href="https://github.com/lola-violet/inspirational-jeopardy" class="custom-card-link card-link">Repository</a>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 

@@ -1,11 +1,17 @@
 :root {
-    --cardTitle: red;
-    --cardButton: pink;
+    --cardTitle: rgb(248, 153, 65);
+    --cardTech: rgb(245, 249, 184);
+    --cardButton: rgb(232, 147, 43);
 }
 
 
+/* font-family: 'BIZ UDPGothic', sans-serif; */
+/* font-family: 'Rajdhani', sans-serif; */
+/* font-family: 'Archivo', sans-serif; */
+
 body {
     background-color: black !important;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #custom-nav {
@@ -13,18 +19,26 @@ body {
     padding-bottom: 10px;
 }
 
+.custom-navlink {
+    font-family: 'Archivo', sans-serif;
+    padding: 8px 12px 3px 12px !important;
+    margin: 0px 12px 10px 12px;
+    /* border-bottom: 1px solid white; */
+}
+
 #custom-jumbo {
-    background-image: url(assets/pawel-czerwinski-unsplash_crop.jpg);
+    background-image: url(assets/pawel-czerwinski-unsplash-copy.jpeg);
 }
 
 #custom-jumbo-text {
-    background-color: rgba(245, 245, 245, 0.605);
+    background-color: rgba(245, 245, 245, 0.706);
     padding-left: 108px;
     padding-top: 9px;
     padding-bottom: 3px;
     padding-right: 24px;
     width: fit-content;
     margin-left: 0;
+    font-family: 'Archivo', sans-serif;
 }
 
 #aboutMe {
@@ -33,26 +47,33 @@ body {
 
 .custom-card {
     background-color: black !important;
+    box-shadow: 
+        2px 2px 10px white,
+        -2px -2px 10px white;
+    margin: 10px;
 }
 
 .custom-title {
     text-align: center;
     color: var(--cardTitle);
+    font-family: 'Archivo', sans-serif;
 }
 
 .custom-card-text {
     font-size: small;
+    text-align: center;
 }
 
 .custom-tech {
     background-color: black !important;
-    color: white;
+    color: var(--cardTech);
     text-align: center;
 }
 
 .custom-card-link {
-    padding: 4px;
+    padding: 5px 10px;
     border: 1px solid var(--cardButton);
     border-radius: 10%;
     color: var(--cardButton);
+    font-family: 'Archivo', sans-serif;
 }
