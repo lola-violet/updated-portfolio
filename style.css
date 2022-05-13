@@ -100,3 +100,19 @@ body {
     color: white;
     margin: 10px 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .custom-navlink {
+        padding: 8px 6px 3px 6px !important;
+        margin: 0px 9px 6px 9px;
+    }
+    #custom-nav ul {
+        justify-content: center !important;
+    }
+    #custom-jumbo-text {
+        padding-left: 24px;
+    }
+    #aboutMe {
+        margin-bottom: 10px !important;
+    }
+}
