@@ -1,7 +1,7 @@
 :root {
-    --cardTitle: rgb(248, 153, 65);
-    --cardTech: rgb(248, 230, 208);
-    --cardButton: rgb(232, 147, 43);
+    --cardTitle: rgb(252, 106, 211);
+    --cardTech: rgb(251, 201, 251);
+    --cardButton: rgb(249, 167, 243);
 }
 
 
@@ -27,7 +27,7 @@ body {
 }
 
 #custom-jumbo {
-    background-image: url(assets/pawel-czerwinski-unsplash-copy.jpeg);
+    background-image: url(assets/pawel-czerwinski-slJUHpQEC0k-unsplash.jpg);
 }
 
 #custom-jumbo-text {
@@ -86,6 +86,7 @@ body {
     color: var(--cardButton);
     font-family: 'Archivo', sans-serif;
     margin: 6px 0 3px 0;
+    height: 36px;
 }
 .custom-card-link:hover {
     background-color: var(--cardButton);
